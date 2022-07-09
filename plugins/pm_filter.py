@@ -1,4 +1,4 @@
-# Kanged From @TroJanZheX
+# Kanged From @ShadowKing9o
 import asyncio
 import re
 import ast
@@ -116,8 +116,8 @@ async def next_page(bot, query):
             )
     btn.insert(0,
             [
-                InlineKeyboardButton("⭕️ Movie", url="https://t.me/mst_file"),
-                InlineKeyboardButton("Series ⭕️", url="https://t.me/+alaIYMx3gwo4YmFl")
+                InlineKeyboardButton("📽 Movies 📽", url="https://t.me/joinchat/PDeJI4GPQ95iMGQ1"),
+                InlineKeyboardButton("🎞 Series 🎞", url="https://t.me/joinchat/TFBnRMFWcqM5M2Zl")
             ])
 
     btn.insert(0, [
@@ -246,7 +246,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode="md"
         )
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('Follow Me @ShadowsArena')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -267,7 +267,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode="md")
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('Follow Me @ShadowsArena')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -290,7 +290,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode="md"
             )
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('Follow Me @ShadowsArena')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode="md"
             )
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('Follow Me @ShadowsArena')
     elif query.data == "backcb":
         await query.answer()
 
@@ -319,7 +319,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('Piracy Is Crime')
+            return await query.answer('Follow Me @ShadowsArena')
         buttons = []
         for groupid in groupids:
             try:
@@ -382,11 +382,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('⭕️ Support', url='https://t.me/m_s_p_o_123'),
-                InlineKeyboardButton('Channel ⭕️', url='https://youtube.com/channel/UCfk2wS7vZYzLR_Pk1eIb2yw')
+                InlineKeyboardButton('🙏 Support 🙏', url='https://t.me/ShadowsArena'),
+                InlineKeyboardButton('🖥 Channel 🖥', url='https://youtube.com/channel/UCqVIzF-2AhO_pY4uo8Rr5Hg')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+alaIYMx3gwo4YmFl')
+                InlineKeyboardButton('🎬 Movie Addaa 🎬', url=f'https://t.me/+9Zhp_GdQVctiNjc1')
             ]
             ]
 
@@ -436,8 +436,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('⭕️ Support', url='https://t.me/m_s_p_o_123'),
-                InlineKeyboardButton('Channel ⭕️', url='https://youtube.com/channel/UCfk2wS7vZYzLR_Pk1eIb2yw')
+                InlineKeyboardButton('🙏 Support 🙏', url='https://t.me/ShadowsArena'),
+                InlineKeyboardButton('🖥 Channel 🖥', url='https://youtube.com/channel/UCqVIzF-2AhO_pY4uo8Rr5Hg')
             ],
             [
                 InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+alaIYMx3gwo4YmFl')
@@ -457,13 +457,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⭕️ Help', callback_data='help'),
-            InlineKeyboardButton('About ⭕️', callback_data='about')
+            InlineKeyboardButton('⛑️ Help ⛑️', callback_data='help'),
+            InlineKeyboardButton('👀 About 👀', callback_data='about')
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/m_s_p_o_123'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/+alaIYMx3gwo4YmFl')
+            InlineKeyboardButton('⚜️ Updates ⚜️', url='https://t.me/ShadowsArena'),
+            InlineKeyboardButton('🎥 Movie Addaa 🎥', url='https://t.me/+9Zhp_GdQVctiNjc1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -474,7 +474,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        await query.answer('Piracy Is Crime')
+        await query.answer('Follow Me @ShadowsArena')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Connect', callback_data='coct'),
@@ -513,7 +513,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⭕ Status', url='https://t.me/m_s_p_o_123'),
+            InlineKeyboardButton('🥷 Creator 🥷', url='https://t.me/ShadowKing9o'),
             InlineKeyboardButton('Source 🪤', callback_data='source')
             ],[
             InlineKeyboardButton('❓ How to Use ❓', callback_data='help')
@@ -826,7 +826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         if str(grp_id) != str(grpid):
             await query.message.edit("Your Active Connection Has Been Changed. Go To /settings.")
-            return await query.answer('Piracy Is Crime')
+            return await query.answer('Follow Me @ShadowsArena')
 
         if status == "True":
             await save_group_settings(grpid, set_type, False)
@@ -873,7 +873,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('Piracy Is Crime')
+    await query.answer('Follow Me @ShadowsArena')
 
 
 async def auto_filter(client, msg, spoll=False):
@@ -938,11 +938,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("⭕️ Movie", url="https://t.me/mst_file"),
-        InlineKeyboardButton("Series ⭕️", url="https://t.me/+alaIYMx3gwo4YmFl")
+        InlineKeyboardButton("📽 Movies 📽", url="https://t.me/joinchat/PDeJI4GPQ95iMGQ1"),
+        InlineKeyboardButton("🎞 Series 🎞", url="https://t.me/joinchat/TFBnRMFWcqM5M2Zl")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⭕️ Join Our Channel ⭕️",url="https://t.me/m_s_p_o_123")
+        InlineKeyboardButton("🥳 Join Our Channel 🥳",url="https://t.me/ShadowsArena")
     ])
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
@@ -980,7 +980,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/+alaIYMx3gwo4YmFl'>© Movie Star Planet</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 10 hours to avoid copyright issues.</s>"
+        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/+9Zhp_GdQVctiNjc1'>© 🎥Movie Addaa🎥</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 10 hours to avoid copyright issues.</s>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
@@ -1053,8 +1053,8 @@ async def advantage_spell_chok(msg):
            InlineKeyboardButton("✅ Google ✅", url=f"https://www.google.com/search?q={search}")
         ],
         [
-           InlineKeyboardButton("⭕️ IMDb", url=f"https://www.imdb.com/find?q={search}"),
-           InlineKeyboardButton("Wikipedia ⭕️", url=f"https://en.m.wikipedia.org/w/index.php?search={search}")
+           InlineKeyboardButton("📺 IMDb 📺", url=f"https://www.imdb.com/find?q={search}"),
+           InlineKeyboardButton("🔍 Wikipedia 🔎", url=f"https://en.m.wikipedia.org/w/index.php?search={search}")
         ]])
         k = await msg.reply(f"Hey, Your word <b>{search}</b> is No Movie/Series Related to the Given Word Was Found 🥺\n\n<s>Please Go to Google and Confirm the Correct Spelling 🥺🙏</s>", reply_markup=button)
         await asyncio.sleep(60)
