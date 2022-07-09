@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('⭕️ Updates ⭕️', url='https://t.me/m_s_p_o_123')
+                InlineKeyboardButton('⚜️ Updates ⚜️', url='https://t.me/ShadowsArena')
             ],
             [
-                InlineKeyboardButton('🛠️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🛠 Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
                 InlineKeyboardButton('Close ✗', callback_data="close_data"),
             ]
             ]
@@ -45,13 +45,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⭕️ Help', callback_data='help'),
-            InlineKeyboardButton('About ⭕️', callback_data='about')
+            InlineKeyboardButton('⛑️ Help ⛑️', callback_data='help'),
+            InlineKeyboardButton('👀 About 👀', callback_data='about')
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/m_s_p_o_123'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/+alaIYMx3gwo4YmFl')
+            InlineKeyboardButton('⚜️ Updates ⚜️', url='https://t.me/ShadowsArena'),
+            InlineKeyboardButton('🎥 Movie Addaa 🎥', url='https://t.me/+9Zhp_GdQVctiNjc1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -93,13 +93,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⭕️ Help', callback_data='help'),
-            InlineKeyboardButton('About ⭕️', callback_data='about')
+            InlineKeyboardButton('⛑️ Help ⛑️', callback_data='help'),
+            InlineKeyboardButton('👀 About 👀', callback_data='about')
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/m_s_p_o_123'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/+alaIYMx3gwo4YmFl')
+            InlineKeyboardButton('⚜️ Updates ⚜️', url='https://t.me/ShadowsArena'),
+            InlineKeyboardButton('🎥 Movie Addaa 🎥', url='https://t.me/+9Zhp_GdQVctiNjc1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -250,11 +250,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('⭕️ Support', url='https://t.me/m_s_p_o_123'),
-            InlineKeyboardButton('Channel ⭕️', url='https://youtube.com/channel/UCfk2wS7vZYzLR_Pk1eIb2yw')
+            InlineKeyboardButton('🙏 Support 🙏', url='https://t.me/m_s_p_o_123'),
+            InlineKeyboardButton('🖥 Channel 🖥', url='https://youtube.com/channel/UCqVIzF-2AhO_pY4uo8Rr5Hg')
         ],
         [
-            InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+alaIYMx3gwo4YmFl')
+            InlineKeyboardButton('🎬 Movie Addaa 🎬', url=f'https://t.me/+9Zhp_GdQVctiNjc1')
         ]
         ]
     await client.send_cached_media(
