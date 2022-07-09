@@ -17,21 +17,21 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 ➥ Language: Python 𝟹
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
 ➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
-➥ Build Status: v2.0.1 [ Beta ]"""
+➥ YouTube: <a href='https://youtube.com/channel/UCqVIzF-2AhO_pY4uo8Rr5Hg'>Shadow Arena</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://t.me/itz_mrshyam'>GitHub - Click here 👈</a>
+Source: <a href='https://github.com/MasterShad0w/IMDb-Movie-Bot'>GitHub - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/itz_mrshyam'>Shyam EDITs</a>
+- <a href='https://t.me/ShadowKing9o'>Shadow King</a>
 
 <b>SUPPORT GROUP</b>
-- <a href='https://t.me/m_s_p_o_123'>Movie Club</a>"""
+- <a href='https://t.me/ShadowsArena'>🎥Movie Addaa🎥</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. IMDb should have admin privillage.
@@ -54,7 +54,7 @@ Source: <a href='https://t.me/itz_mrshyam'>GitHub - Click here 👈</a>
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/m_s_p_o_123)</code>
+<code>[Button Text](buttonurl:https://t.me/ShadowsArena)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -280,7 +280,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/ShadowsArena</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
@@ -309,7 +309,7 @@ Music download modules, for those who love music.
 
 <b>YouTube Thumbnail Download</b>
 • /ytthumb (youtube link)
-<b>Example:</b> <code>/ytthumb https://youtu.be/nkzSkRocaoE</code>
+<b>Example:</b> <code>/ytthumb https://youtu.be/ttX4OEYwpCQ</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
