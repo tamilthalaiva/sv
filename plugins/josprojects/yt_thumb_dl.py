@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) @ZauteKm
+# Copyright (C) @ShadowKing9o
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -40,13 +40,13 @@ async def send_thumbnail(bot, update):
         )
         await update.reply_photo(
             photo=thumbnail,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://t.me/m_s_p_o_123')]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://t.me/ShadowsArena')]]),
             quote=True
         )
         await message.delete()
     except Exception as error:
         await message.edit_text(
-            text="**Please Use** /ytthumb (youtube link)\n\n**Example:** `/ytthumb https://youtu.be/nkzSkRocaoE`",
+            text="**Please Use** /ytthumb (youtube link)\n\n**Example:** `/ytthumb https://youtu.be/ttX4OEYwpCQ`",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://t.me/m_s_p_o_123')]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://t.me/ShadowsArena')]])
         )
