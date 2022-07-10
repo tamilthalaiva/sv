@@ -1,5 +1,5 @@
 echo "Cloning Repo, Please Wait..."
-git clone -b master https://github.com/MasterShad0w/IMDb-Movie-Bot.git /IMDb-Movie-Bot
+git clone -b master https://github.com/ShadowKing9/IMDb-Movie-Bot.git /IMDb-Movie-Bot
 cd /IMDb-Movie-Bot
 echo "Installing Requirements..."
 pip3 install -U -r requirements.txt
