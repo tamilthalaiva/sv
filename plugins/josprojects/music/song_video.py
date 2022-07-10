@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) @ZauteKm
+# Copyright (C) @ShadowKing9o
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -99,7 +99,7 @@ def a(client, message: Message):
         m.delete()
         message.delete()
     except Exception as e:
-        m.edit('**An Error Occured. Please Report This To @JOSPSupport !!**')
+        m.edit('**An Error Occured. Please Report This To @ShadowsArena !!**')
         print(e)
     try:
         os.remove(audio_file)
