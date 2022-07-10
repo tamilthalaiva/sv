@@ -12,26 +12,26 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/itz_mrshyam'>Mr SHYAM</a>
+➥ Creator: <a href='https://t.me/ShadowKing9o'>Shadow King</a>
 ➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 ➥ Language: Python 𝟹
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
 ➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
-➥ Build Status: v2.0.1 [ Beta ]"""
+➥ YouTube: <a href='https://youtube.com/channel/UCqVIzF-2AhO_pY4uo8Rr5Hg'>Shadows Arena</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://t.me/itz_mrshyam'>GitHub - Click here 👈</a>
+Source: <a href='https://github.com/MasterShad0w/IMDb-Movie-Bot'>GitHub - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/itz_mrshyam'>Shyam EDITs</a>
+- <a href='https://t.me/ShadowKing9o'>Shadow King</a>
 
 <b>SUPPORT GROUP</b>
-- <a href='https://t.me/m_s_p_o_123'>Movie Club</a>"""
+- <a href='https://t.me/ShadowsArena'>Shadows Arena</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. IMDb should have admin privillage.
