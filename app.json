@@ -68,7 +68,7 @@
             "required": false
         },
         "SINGLE_BUTTON": {
-            "description": "Choose b/w single or double buttons True/False.Default is False."
+            "description": "Choose b/w single or double buttons True/False.Default is False.", 
             "required": false
         }
     },
