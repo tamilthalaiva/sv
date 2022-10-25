@@ -12,22 +12,22 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/ShadowKing9o'>Shadow King</a>
+➥ Creator: <a href='https://t.me/Tamil_Thalaiva'>🆂🆄🆁🅹🅸🆃🅷</a>
 ➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
-➥ Language: Python 𝟹
+➥ Language: Python 3
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
 ➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
 ➥ YouTube: <a href='https://youtube.com/channel/UCqVIzF-2AhO_pY4uo8Rr5Hg'>Shadows Arena</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://github.com/MasterShad0w/IMDb-Movie-Bot'>GitHub - Click here 👈</a>
+Source: <a href='https://github.com/tamilthalaiva/sv'>GitHub - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/ShadowKing9o'>Shadow King</a>
+- <a href='https://t.me/Tamil_Thalaiva'>🆂🆄🆁🅹🅸🆃🅷</a>
 
 <b>SUPPORT GROUP</b>
-- <a href='https://t.me/ShadowsArena'>Shadows Arena</a>"""
+- <a href='https://t.me/Tamil_thalaiva2'>ડꪜMovies download</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -46,11 +46,11 @@ Source: <a href='https://github.com/MasterShad0w/IMDb-Movie-Bot'>GitHub - Click 
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- tgmoviebot support both url and alert inline buttons.
+- ડꪜ. Movies download support both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. IMDb supports buttons with any telegram media type.
+2. ડꪜ supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
@@ -268,7 +268,7 @@ Some dank memes for fun or whatever!
 • /runs strings
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• ડꪜ should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -283,7 +283,7 @@ Some URLs is Shortner
 <code>/short https://t.me/josprojects</code>
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• ડꪜ should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -295,7 +295,7 @@ A module to convert text to voice with language support.
 • /tts - Reply to any text message with language code to convert as audio.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• ડꪜ should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
